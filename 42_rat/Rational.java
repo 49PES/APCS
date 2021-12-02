@@ -10,8 +10,8 @@
  Disco: 
  Some elegant stuff was deliberated ...
  
- - Given that the numerator and denominator could potentially be negative, set the temporary values for them as positive
- so that the Euclidean method works with them, otherwise it would reduce forever
+ - Given that the numerator and denominator could potentially be negative, set the temporary values for them in the gcd() method as positive
+ so that the Euclidean method works with them (otherwise it would subtract / reduce forever)
  
  - While reducing, if both the numerator and the denominator are negative, make them both positive. 
  However, if the numerator is positive and the denominator is negative, it's still cleanest to negate both of them,
